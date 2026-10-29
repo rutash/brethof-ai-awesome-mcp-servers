@@ -65,7 +65,7 @@ official one; if forks compete, the most active fork wins.
 - [Communication](#communication) (8)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
-- [Vector & Memory Stores](#vector--memory-stores) (7)
+- [Vector & Memory Stores](#vector--memory-stores) (8)
 - [Productivity & Notes](#productivity--notes) (8)
 - [Design & Creative](#design--creative) (7)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
@@ -217,6 +217,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 - **[brethof-brain](https://brethof.ai/brain/)** — 🆕 new 🏷️ brethof ⚠️ mutating ☁️ hosted  
   Persistent memory for AI agents across sessions, projects and machines. Every session opens with a brief — your standing rules, what each project is, where the last sessions stopped — and the records that bear on a prompt arrive with it. It curates itself into records per project, keeps the full chat history searchable, and adds notes, playbooks and an optional graph of decisions: each one dated, with its reason and what it replaced, returned alongside search results. Proven on twenty platforms, including Claude Code, Codex, Gemini CLI, GitHub Copilot CLI, OpenCode, OpenClaw and Hermes Agent on Linux and Windows, and Cline on Linux. Memory lives on your machine (local edition, Docker or Podman) or encrypted under a passphrase only you hold (hosted); each exchange is processed by our hub, which keeps none of it. Free tier; the client is source-available. Disclosure: maintained by us.
+- **[brainattic](https://brainattic.ai/docs/connect)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Brainattic's official EU-hosted MCP service at https://app.brainattic.ai/api/mcp provides hybrid semantic and keyword search, scoped document retrieval and permission-controlled editing of versioned organizational knowledge. A Brainattic account and browser OAuth 2.1 sign-in (PKCE and dynamic client registration) are required; no static API key or local installation. The hosted backend is proprietary.
 - **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local  
   ChromaDB collections, similarity search, persistent embeddings (ephemeral, persistent, HTTP or Chroma Cloud client). Still the server in Chroma's docs, but unmaintained: no release since v0.2.6 (Aug 2025), a reported SQL-injection issue and 15 PRs sit unanswered, and it pins an MCP SDK version with published security advisories.  
   <sub>★ 600 · v0.2.6 (2025-08-14)</sub>

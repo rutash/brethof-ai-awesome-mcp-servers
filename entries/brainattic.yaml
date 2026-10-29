@@ -1,0 +1,19 @@
+name: brainattic
+slug: brainattic
+url: https://brainattic.ai/docs/connect
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: >-
+  Brainattic's official EU-hosted MCP service at
+  https://app.brainattic.ai/api/mcp provides hybrid semantic and keyword
+  search, scoped document retrieval and permission-controlled editing of
+  versioned organizational knowledge. A Brainattic account and browser
+  OAuth 2.1 sign-in (PKCE and dynamic client registration) are required;
+  no static API key or local installation. The hosted backend is proprietary.
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-29'
+category_order: 10
